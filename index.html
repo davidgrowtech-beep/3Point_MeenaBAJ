@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=973531912503966&ev=PageView&noscript=1"/></noscript>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Lern with 3 Point Traders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Learn with 3 Point Traders</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Tamil:wght@500;600;700&display=swap" rel="stylesheet">
@@ -125,6 +126,23 @@
   @media (min-width:601px){
     #page{box-shadow:0 0 60px rgba(0,0,0,.5);}
   }
+
+  /* ===== fixes ===== */
+  html,body{min-height:100vh; min-height:100dvh;}
+  header.top{padding-top:max(16px, env(safe-area-inset-top,0px));}
+  footer{padding-bottom:max(30px, env(safe-area-inset-bottom,0px));}
+  .hero h1{font-size:clamp(23px,7vw,30px);}
+  .hero .taLine{font-size:clamp(15px,4.4vw,18px);}
+  .ctaBtn{min-height:56px; touch-action:manipulation; -webkit-tap-highlight-color:transparent; animation:ctaPulse 1.8s ease-in-out infinite;}
+  @keyframes ctaPulse{0%,100%{box-shadow:0 10px 24px -8px rgba(212,175,106,.55),0 0 0 0 rgba(240,200,120,.4);}50%{box-shadow:0 10px 24px -8px rgba(212,175,106,.55),0 0 0 8px rgba(240,200,120,0);}}
+  .steps{margin-top:12px; padding:10px 12px; border:1px dashed rgba(240,200,120,.45); background:rgba(212,175,106,.07); border-radius:10px; font-size:12px; line-height:1.6; color:var(--text); text-align:left;}
+  .steps .ta{display:block; color:var(--gold-bright);}
+  .fbNote{display:none; margin-top:10px; font-size:12px; line-height:1.6; color:var(--gold-bright); background:rgba(212,175,106,.1); border:1px solid rgba(212,175,106,.35); border-radius:10px; padding:9px 11px; text-align:left;}
+  .fbNote.show{display:block;}
+  .fbNote a{text-decoration:underline; font-weight:600;}
+  @media (min-width:768px){#page{max-width:520px;}}
+  @media (max-width:340px){.hero{padding:26px 14px 22px;} .points,.benefits,.finalCta{padding-left:12px; padding-right:12px;}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important;}}
 </style>
 </head>
 <body>
@@ -157,16 +175,20 @@
 
   <section class="hero">
     <div class="eyebrow">Free Telegram Class · இலவச டெலிகிராம் வகுப்பு</div>
-    <h1>Lern with <span>3 Point Traders</span></h1>
+    <h1>Learn with <span>3 Point Traders</span></h1>
     <div class="taLine">சரியான Entry, Target &amp; Stop-Loss வைத்து சந்தையை புரிந்துகொள்ளுங்கள் — 3 பாயிண்ட் முறையில்.</div>
     <div class="subEn">Simple 3-Point method to read any chart — Entry, Target &amp; Stop-Loss. Join our Telegram channel and start learning today.</div>
 
     <div class="ctaWrap">
-      <a href="#" class="jnBtn ctaBtn" data-id="hero">
+      <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener" class="jnBtn ctaBtn" data-id="hero">
         Join Now — Telegram
         <span class="ta">இப்போதே டெலிகிராமில் சேரவும்</span>
       </a>
-      <div class="microcopy">100% Free to join · இணைவது இலவசம்</div>
+      <div class="microcopy">100%% Free to join · இணைவது இலவசம்</div>
+      <div class="steps">1️⃣ Tap the button → Telegram opens &nbsp; 2️⃣ Tap <b>"Join / Request to Join"</b>
+        <span class="ta">1️⃣ பட்டனை அழுத்தவும் → Telegram திறக்கும் &nbsp; 2️⃣ <b>"Join / Request to Join"</b> அழுத்தவும்</span></div>
+      <div class="fbNote" data-note>Telegram did not open? <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener">Tap here</a>, or use the (⋮) menu → "Open in Browser / Chrome".
+        <span class="ta">Telegram திறக்கவில்லையா? <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener">இங்கே அழுத்தவும்</a> அல்லது (⋮) மெனு → "Open in Browser / Chrome" தேர்வு செய்யவும்.</span></div>
     </div>
   </section>
 
@@ -197,7 +219,7 @@
     </div>
 
     <div class="ctaWrap">
-      <a href="#" class="jnBtn ctaBtn" data-id="mid">
+      <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener" class="jnBtn ctaBtn" data-id="mid">
         Join Now — Telegram
         <span class="ta">இப்போதே டெலிகிராமில் சேரவும்</span>
       </a>
@@ -235,11 +257,12 @@
     <div class="card">
       <h3>Start Learning Today<span class="ta">இன்றே கற்க தொடங்குங்கள்</span></h3>
       <div class="ctaWrap" style="margin-top:16px;">
-        <a href="#" class="jnBtn ctaBtn" data-id="final">
+        <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener" class="jnBtn ctaBtn" data-id="final">
           Join Now — Telegram
           <span class="ta">இப்போதே டெலிகிராமில் சேரவும்</span>
         </a>
       </div>
+      <div class="fbNote" data-note>Telegram did not open? <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener">Tap here</a> · <span class="ta">Telegram திறக்கவில்லையா? <a href="https://t.me/+ytS6HQ4FgW8zOThl" rel="noopener">இங்கே அழுத்தவும்</a></span></div>
       <p class="small">Limited seats in the free batch · இலவச batch-ல் இடங்கள் குறைவு</p>
     </div>
   </section>
@@ -258,52 +281,74 @@
 </div>
 
 <script>
-  /* =========================================================
-     META PIXEL — replace YOUR_PIXEL_ID_HERE with the real Pixel ID
-  ========================================================= */
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-
-  var PIXEL_ID = '973531912503966';
-  fbq('init', PIXEL_ID);
-  fbq('track', 'PageView');
-
-  /* =========================================================
-     TELEGRAM LINK — replace with the real channel/group link
-  ========================================================= */
-  var TELEGRAM_LINK = 'https://t.me/+ytS6HQ4FgW8zOThl';
-
-  var isNavigating = false;
-
-  window.addEventListener('DOMContentLoaded', function () {
-
-    /* ---- Wire up real Telegram href on every Join Now button ---- */
-    var buttons = document.querySelectorAll('.jnBtn');
-    buttons.forEach(function (btn) {
-      btn.href = TELEGRAM_LINK;
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        if (isNavigating) return;
-        isNavigating = true;
-
-        try {
-          if (typeof fbq === 'function') {
-            fbq('track', 'Subscribe', { value: 0, currency: 'INR' });
-          }
-        } catch (err) { /* fail silently, still redirect */ }
-
-        setTimeout(function () {
-          window.location.href = TELEGRAM_LINK;
-        }, 130);
-      });
-    });
+(() => {
+  'use strict';
+  const CONFIG = Object.freeze({
+    pixelId: '973531912503966',
+    telegramUrl: 'https://t.me/+ytS6HQ4FgW8zOThl',
+    telegramInvite: 'ytS6HQ4FgW8zOThl',
+    pageViewDelayMs: 3000,
+    passiveReaderDelayMs: 8000,
+    minimumClickTimeMs: 2500,
+    sessionKey: 'tpt_qualified_page_view'
   });
+  const pageOpenedAt = Date.now();
+  let pageViewTracked = false, leadTracked = false, humanInteraction = false;
+
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+  s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', CONFIG.pixelId);
+
+  const ua = navigator.userAgent;
+  const isFbIab = () => /FBAN|FBAV|FB_IAB|Instagram/i.test(ua);
+  const isAndroid = () => /Android/i.test(ua);
+  const isIOS = () => /iPhone|iPad|iPod/i.test(ua);
+  const automation = () => navigator.webdriver === true || /HeadlessChrome|PhantomJS|Puppeteer|Selenium/i.test(ua);
+
+  const sessionHas = () => { try { return sessionStorage.getItem(CONFIG.sessionKey) === 'true'; } catch (e) { return false; } };
+  const sessionSave = () => { try { sessionStorage.setItem(CONFIG.sessionKey, 'true'); } catch (e) {} };
+
+  // PageView only for visitors who stay and look like real people (stops bot/accidental views inflating the funnel)
+  function tryPageView() {
+    const t = Date.now() - pageOpenedAt;
+    const ok = !pageViewTracked && !sessionHas() && !automation() &&
+      ((humanInteraction && t >= CONFIG.pageViewDelayMs) || t >= CONFIG.passiveReaderDelayMs) &&
+      document.visibilityState === 'visible' && typeof window.fbq === 'function';
+    if (!ok) return;
+    fbq('track', 'PageView', { qualified_view: true, time_on_page: Math.round(t / 1000) });
+    pageViewTracked = true; sessionSave();
+  }
+  function onHuman(e) { if (!e.isTrusted || humanInteraction) return; humanInteraction = true; tryPageView(); }
+  ['pointerdown','touchstart','keydown','scroll','mousemove'].forEach(n => window.addEventListener(n, onHuman, { passive: true, once: true }));
+  setTimeout(tryPageView, CONFIG.pageViewDelayMs);
+  setTimeout(tryPageView, CONFIG.passiveReaderDelayMs);
+
+  const androidIntent = () => `intent://join?invite=${CONFIG.telegramInvite}#Intent;scheme=tg;S.browser_fallback_url=${encodeURIComponent(CONFIG.telegramUrl)};end`;
+
+  function onJoinClick(event) {
+    const t = Date.now() - pageOpenedAt;
+    const qualified = event.isTrusted && !automation() && document.visibilityState === 'visible' && t >= CONFIG.minimumClickTimeMs;
+    if (qualified && !leadTracked && typeof window.fbq === 'function') {
+      fbq('track', 'Lead', { value: 0, currency: 'INR', destination: 'Telegram', time_on_page: Math.round(t / 1000) });
+      leadTracked = true;
+    }
+    // No setTimeout before navigating: it must happen inside the tap so the phone allows the Telegram app to open.
+    if (isFbIab()) {
+      event.preventDefault();
+      window.location.href = isAndroid() ? androidIntent() : `tg://join?invite=${CONFIG.telegramInvite}`;
+    }
+    setTimeout(() => {
+      if (document.visibilityState !== 'visible') return;
+      document.querySelectorAll('[data-note]').forEach(n => n.classList.add('show'));
+    }, 2200);
+  }
+
+  function init() {
+    document.querySelectorAll('.jnBtn').forEach(b => { b.href = CONFIG.telegramUrl; b.addEventListener('click', onJoinClick); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true }); else init();
+})();
 </script>
 
 </body>
